@@ -4,7 +4,7 @@ $endpoint = 'https://api.projectoxford.ai/face/v1.0/detect';
 // $endpoint = 'http://google.com/';
 $headers = [
 	'Content-Type: application/json',
-	'Ocp-Apim-Subscription-Key: c62a0a4d437b4defa90a2fa719acfdbf'
+	'Ocp-Apim-Subscription-Key: <your subscription key>'
 ];
 
 $url = $_POST['url'];
