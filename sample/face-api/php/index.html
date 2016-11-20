@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Cognitive Services Face API PHP ver.</title>
+	</head>
+	<body>
+		<h1>Cognitive Services</h1>
+		<h2>Face API - Detect</h2>
+		<h3>PHP ver.</h3>
+		<hr>
+		<div>
+			<h4>File upload:</h4>
+			<form action="face-api-upload.php" method="post" enctype="multipart/form-data">
+				<div>
+					Image file:
+					<input type="file" name="upfile" size="30">
+				</div>
+				<div>
+					<input type="submit" value="Upload and detect">
+				</div>
+			</form>
+		</div>
+		<hr>
+		<div>
+			<h4>Specify image url:</h4>
+			<form action="face-api-url.php" method="post">
+				<div>
+					Image URL:
+					<input type="text" name="url" size="30">
+				</div>
+				<div>
+					<input type="submit" value="Detect by image url">
+			</form>
+		</div>
+		<hr>
+	</body>
+</html>
